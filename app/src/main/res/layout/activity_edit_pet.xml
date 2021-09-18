@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".activity.EditPetActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose pet: "
+            android:padding="10dp"
+            android:textSize="20sp"/>
+
+        <Spinner
+            android:id="@+id/spinner_edit_pet_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight (in kg):"
+            android:padding="10dp"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/edittext_edit_pet_weight"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:text="Pet Weight"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Owner ID:"
+        android:padding="5dp"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/textview_edit_pet_ownerid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="Owner ID"/>
+
+    <Button
+        android:id="@+id/button_edit_pets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Edit Pet"/>
+
+    <Button
+        android:id="@+id/button_delete_pets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:backgroundTint="@color/red"
+        android:text="Delete Pet"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar_edit_pets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"/>
+
+</LinearLayout>

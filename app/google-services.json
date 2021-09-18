@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "758818801738",
+    "firebase_url": "https://pawspace-assignment-d5c86-default-rtdb.firebaseio.com",
+    "project_id": "pawspace-assignment-d5c86",
+    "storage_bucket": "pawspace-assignment-d5c86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758818801738:android:cf7587497c7327d0047eb3",
+        "android_client_info": {
+          "package_name": "com.example.pawspaceassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758818801738-qrqo8563jcvhp9s8kqapm0eqns5k9103.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyhPpEHHrWLvN5cwaH_sy0mOAwO6TYtH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758818801738-qrqo8563jcvhp9s8kqapm0eqns5k9103.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

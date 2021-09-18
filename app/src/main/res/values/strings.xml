@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PawSpace Assignment</string>
+    <string-array name="pets">
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Rabbit</item>
+    </string-array>
+    <string-array name="number_of_pets">
+        <item>1</item>
+    </string-array>
+</resources>
